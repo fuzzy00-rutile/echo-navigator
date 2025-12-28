@@ -1,0 +1,19 @@
+{
+  "__file": "package.json",
+  "name": "echo-navigator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "@coinbase/wallet-sdk": "latest",
+    "@coinbase/onchainkit": "latest",
+    "viem": "latest",
+
+    "base-node": "github:base/node",
+    "base-web": "github:base/web",
+    "base-docs": "github:base/docs",
+
+    "coinbase-agentkit": "github:coinbase/agentkit"
+  }
+}
